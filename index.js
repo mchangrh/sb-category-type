@@ -37,16 +37,11 @@ const EMOJI_ARR = Object.values(EMOJI_ID_MAP).map((o) => `<:${o.name}:${o.id}>`)
 const EMOJI_MAP = createMap(CATEGORY_NAMES, EMOJI_ARR);
 const COLOUR_MAP = createMap(CATEGORY_NAMES, COLOUR_ARR);
 
-// functions
-const valiateCategoryType = (category, type) =>
-  Boolean(CATEGORY_TYPES_MAP[category]?.includes(type));
-
 module.exports = {
   CATEGORY_TYPES_MAP,
   CATEGORY_NAMES,
   TYPES,
   EMOJI_ID_MAP,
   EMOJI_MAP,
-  COLOUR_MAP,
-  valiateCategoryType
+  COLOUR_MAP
 }
