@@ -39,7 +39,7 @@ const COLOUR_MAP = createMap(CATEGORY_NAMES, COLOUR_ARR);
 
 // functions
 const valiateCategoryType = (category, type) =>
-  CATEGORY_TYPES_MAP?.[category]?.includes(type);
+  Boolean(CATEGORY_TYPES_MAP[category]?.includes(type));
 
 module.exports = {
   CATEGORY_TYPES_MAP,
