@@ -1,0 +1,19 @@
+{
+  "name": "sb-category-type",
+  "version": "1.0.0",
+  "description": "Basic types for SponsorBlock API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchangrh/sb-category-type.git"
+  },
+  "author": "Michael Chang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mchangrh/sb-category-type/issues"
+  },
+  "homepage": "https://github.com/mchangrh/sb-category-type#readme"
+}
