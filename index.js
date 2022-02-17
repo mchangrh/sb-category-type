@@ -15,7 +15,7 @@ const EMOJI_ID_MAP = {
   intro: { name: "intro", id: "936878146391769108" },
   outro: { name: "outro", id: "936878146135920700" },
   interaction_reminder: { name: "interaction_reminder", id: "936878145993322557" },
-  selfpromo: { name: "selfpromo:", id: "936878146228207636" },
+  selfpromo: { name: "selfpromo", id: "936878146228207636" },
   nonmusic: { name: "nonmusic", id: "936878146186252288" },
   preview: { name: "preview", id: "936878146190471178" },
   highlight: { name: "highlight", id: "936878146316292106" },
