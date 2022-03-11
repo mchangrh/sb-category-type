@@ -22,6 +22,16 @@ const EMOJI_ID_MAP = {
   filler: { name: "filler", id: "936878145812971581" },
   exclusive_access: { name: "exclusive_access", id: "936878145909424179" }
 };
+const CATEGORY_LONGNAMES = {
+  "Sponsor": "sponsor",
+  "Unpaid/ Self Promotion": "selfpromo",
+  "Interaction Reminder": "interaction",
+  "Intermission/ Intro Animation": "intro",
+  "Endcards/ Outro": "outro",
+  "Preview/ Recap": "preview",
+  "Music: Non-Music": "music_offtopic",
+  "Filler": "filler"
+}
 
 //helper
 const createMap = (keys, values) =>
@@ -40,6 +50,7 @@ const COLOUR_MAP = createMap(CATEGORY_NAMES, COLOUR_ARR);
 module.exports = {
   CATEGORY_TYPES_MAP,
   CATEGORY_NAMES,
+  CATEGORY_LONGNAMES,
   TYPES,
   EMOJI_ID_MAP,
   EMOJI_MAP,
