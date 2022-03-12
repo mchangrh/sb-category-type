@@ -18,19 +18,21 @@ const EMOJI_ID_MAP = {
   selfpromo: { name: "selfpromo", id: "936878146228207636" },
   music_offtopic: { name: "nonmusic", id: "936878146186252288" },
   preview: { name: "preview", id: "936878146190471178" },
-  highlight: { name: "highlight", id: "936878146316292106" },
+  poi_highlight: { name: "highlight", id: "936878146316292106" },
   filler: { name: "filler", id: "936878145812971581" },
   exclusive_access: { name: "exclusive_access", id: "936878145909424179" }
 };
 const CATEGORY_LONGNAMES = {
   "Sponsor": "sponsor",
-  "Unpaid/ Self Promotion": "selfpromo",
-  "Interaction Reminder": "interaction",
   "Intermission/ Intro Animation": "intro",
   "Endcards/ Outro": "outro",
-  "Preview/ Recap": "preview",
+  "Interaction Reminder": "interaction",
+  "Unpaid/ Self Promotion": "selfpromo",
   "Music: Non-Music": "music_offtopic",
-  "Filler": "filler"
+  "Preview/ Recap": "preview",
+  "Highlight": "poi_highlight",
+  "Filler": "filler",
+  "Exclusive Access": "exclusive_access"
 }
 
 //helper
